@@ -1,6 +1,6 @@
 {
   "name": "reprogressbars_props",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React progress bars",
   "main": "lib/index",
   "jsnext:main": "es6/index",
