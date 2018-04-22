@@ -8,11 +8,11 @@ export default function Bar(props) {
   const barStyles = {
     width: value + '%',
     height,
-    backgroundColor: color
+    backgroundColor: "#f73d1c"
   };
 
   if (useBoxShadow) {
-    barStyles.boxShadow = `0 0 5px ${color}`;
+    barStyles.boxShadow = `0 0 5px #f73d1c`;
   }
 
   const wrapperClassNames = classNames('reprogressbar', className, {
@@ -26,17 +26,6 @@ export default function Bar(props) {
     </div>
   );
 }
-
-Bar.propTypes = {
-  color: PropTypes.string,
-  height: PropTypes.string,
-  className: PropTypes.string,
-  useBoxShadow: PropTypes.bool,
-  progress: PropTypes.shape({
-    active: PropTypes.bool,
-    value: PropTypes.number
-  })
-};
 
 Bar.defaultProps = {
   color: '#29d',

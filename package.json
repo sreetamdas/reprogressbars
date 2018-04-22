@@ -1,5 +1,5 @@
 {
-  "name": "reprogressbars",
+  "name": "reprogressbars_props",
   "version": "1.0.1",
   "description": "React progress bars",
   "main": "lib/index",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nickstanish/reprogressbars.git"
+    "url": "git@github.com:sreetamdas/reprogressbars.git"
   },
   "files": [
     "*.md",
@@ -36,7 +36,7 @@
     "loading",
     "react-component"
   ],
-  "author": "Nick Stanish",
+  "author": "Sreetam Das",
   "license": "MIT",
   "ava": {
     "require": [

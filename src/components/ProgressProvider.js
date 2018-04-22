@@ -23,10 +23,10 @@ const stepsConfig = {
 const noOp = () => {};
 
 export default class ProgressProvider extends Component {
-  static propTypes = {
-    isLoading: PropTypes.bool,
-    children: PropTypes.element
-  };
+  // static propTypes = {
+  //   isLoading: PropTypes.bool,
+  //   children: PropTypes.element
+  // };
 
   constructor(props) {
     super(props);

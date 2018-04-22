@@ -21,11 +21,3 @@ export default function ProgressBar(props) {
     </ProgressProvider>
   );
 }
-
-ProgressBar.propTypes = {
-  color: PropTypes.string,
-  height: PropTypes.string,
-  isLoading: PropTypes.bool,
-  className: PropTypes.string,
-  useBoxShadow: PropTypes.bool
-};
