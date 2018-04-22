@@ -8,11 +8,11 @@ export default function Bar(props) {
   const barStyles = {
     width: value + '%',
     height,
-    backgroundColor: "#f73d1c"
+    backgroundColor: color
   };
 
   if (useBoxShadow) {
-    barStyles.boxShadow = `0 0 5px #f73d1c`;
+    barStyles.boxShadow = `0 0 5px ${color}`;
   }
 
   const wrapperClassNames = classNames('reprogressbar', className, {
